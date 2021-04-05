@@ -1,0 +1,34 @@
+
+
+@media ( max-width:600px) {
+
+    * {
+        font-size: small;
+    }
+
+    .fullscreen-banner {
+        width:auto;
+        height: 20rem;
+        text-align: left;
+    }
+
+    .cards { flex-direction: column;}
+
+    .card {
+        margin:0;
+        padding:0;
+    }
+
+    .article {
+        margin:0;
+        text-align: left;
+        justify-content: left;
+    }
+    
+    .wrapperform { margin:0; }
+
+    .form{ width: fit-content;}
+
+    .githubikon , .mailikon{
+        width: 20px;
+    }
