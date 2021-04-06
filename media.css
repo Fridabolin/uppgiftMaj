@@ -1,4 +1,27 @@
 
+@media ( max-width:900px) {
+
+* {
+    font-size: small;
+}
+
+.fullscreen-banner {
+    width:auto;
+    height: 20rem;
+    text-align: left;
+}
+
+.card {
+    margin:2rem;
+    padding:0;
+}
+
+.form{ width: fit-content;}
+
+.footer {padding:1rem;}
+
+.githubikon , .mailikon{display:none;}
+
 
 @media ( max-width:600px) {
 
@@ -19,16 +42,10 @@
         padding:0;
     }
 
-    .article {
-        margin:0;
-        text-align: left;
-        justify-content: left;
-    }
-    
     .wrapperform { margin:0; }
 
     .form{ width: fit-content;}
 
-    .githubikon , .mailikon{
-        width: 20px;
-    }
+    .footer {padding:0;}
+
+    .githubikon , .mailikon{display:none;}
