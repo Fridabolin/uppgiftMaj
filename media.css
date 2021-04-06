@@ -16,8 +16,6 @@
     padding:0;
 }
 
-.form{ width: fit-content;}
-
 .footer {padding:1rem;}
 
 .githubikon , .mailikon{display:none;}
@@ -42,9 +40,10 @@
         padding:0;
     }
 
-    .wrapperform { margin:0; }
+    .wrapperform { margin:0;}
 
-    .form{ width: fit-content;}
+    .form{ width:fit-content;}
+   
 
     .footer {padding:0;}
 
